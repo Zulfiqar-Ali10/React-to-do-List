@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #ccddff;
+}
+.app{
+    text-align: center;
+}
+.container{
+    background-color: blue;
+    justify-content: center;
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 6%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+}
+input[type=text], select {
+    width: 80%;
+    padding: 14px 20px;
+    margin: 30px 0;
+    display: inline-flex;
+    border: 1px solid white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px; 
+    text-transform: uppercase; 
+}
+button{
+    width: 15%;
+    background-color: greenyellow;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px; 
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.6s ease-in-out;
+}
+button:hover{
+    background-color: rgb(119, 193, 9);
+}
+.header{
+    width: 100%;
+    padding: 12px 20px;
+    color: white;
+    font-size: 50px;
+}
+.List-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 50px;
+    background-color: cadetblue;
+    width: 80%;
+    border-radius: 10px;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 50px;
+}
+.listData{
+    color: black;
+    font-size: 20px;
+    background-color: cadetblue;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    width: 80%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px; 
+    margin: 0 auto;
+}
+.btn-position{
+ position: relative;
+ left: 34%;
+ top: -45px;
+}
+#removeThis{
+    border-radius: 10px;
+}
+.containerh1{
+    color: white;
+    font-size: 60px;
+    text-decoration: underline;
+}

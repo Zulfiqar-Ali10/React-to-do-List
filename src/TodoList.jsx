@@ -30,7 +30,7 @@ function TodoList(){
     return(
         <>
         <div className="container">
-            <h1 className="containerh1">Zulfiqar Ali</h1>
+            <h1 className="containerh1">Zulfiqar Tech Zone</h1>
             <div className="header">TODO LIST</div>
             <input type="text"placeholder="Add Activity" value={activity} onChange={(e)=> 
                 setActivity(e.target.value)}/>
